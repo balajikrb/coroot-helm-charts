@@ -61,7 +61,7 @@ corootCE:
       memory: 1Gi
   persistentVolume:
     size: 10Gi
-    storageClassName: ""
+    storageClassName: "manual"
   nodeSelector: {}
   tolerations: []
   affinity: {}
